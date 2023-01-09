@@ -14,12 +14,12 @@ export default function Layout() {
           <a href="https://tailwindcss.com/">Tailwindcss</a> <br />
           并且部署在 <a href="https://vercel.com/">Vercel</a> 的一个示例！
         </p>
-        <p className="text-right mt-2">
+        {/* <p className="text-right mt-2">
           <a className="text-xs"
              href="https://next.umijs.org/zh-CN/docs/tutorials/blog">
             马上自己做一个 ➡️
           </a>
-        </p>
+        </p> */}
       </div>
       <Outlet />
     </div>
