@@ -1,11 +1,23 @@
 # umi-blog ver.2023
 using pnpm.
+
+``` bash
+"dev": "umi dev",
+"build": "prisma generate && umi build",
+"postinstall": "umi setup",
+"setup": "umi setup",
+"start": "npm run dev"
+```
 ### tutorial
 https://umijs.org/docs/tutorials/blog
 
 ### example
 https://github.com/umijs/umi-blog-example
 
+
+### ui
+https://daisyui.com/?lang=zh_cn
+https://tailwindcss.com/
 ### redis
 https://console.upstash.com/redis/456ed5b7-a30b-4a79-8cfa-edd18a685818
 
